@@ -1,4 +1,4 @@
-     XXXX Site Information Form (site log)
+     SANT Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
@@ -138,7 +138,7 @@
      Serial Number            : 1700677             
      Firmware Version         : 1.10/4.007 
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2000-01-01T00:00Z    
+     Date Installed           : 2011-09-13T00:00Z    
      Date Removed             : 2011-10-28T00:00Z    
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -148,7 +148,7 @@
      Serial Number            : 1700677              
      Firmware Version         :            
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2012-01-02T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -182,7 +182,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
-     Date Installed           : 2012-01-02T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 

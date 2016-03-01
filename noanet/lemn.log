@@ -75,10 +75,10 @@
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
-     Serial Number            : 351610               
-     Firmware Version         :            
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2007-07-11T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -104,17 +104,18 @@
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
      Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
-     Marker->ARP Up Ecc. (m)  :   0.0000
-     Marker->ARP North Ecc(m) :   0.0000
-     Marker->ARP East Ecc(m)  :   0.0000
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
      Alignment from True N    : (deg; + is clockwise/east)
-     Antenna Radome Type      : NONE
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
-     Date Installed           : 2007-07-11T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
+
 
 5.   Surveyed Local Ties
 

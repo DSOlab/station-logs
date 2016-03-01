@@ -15,7 +15,7 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Atalanti
+     Site Name                : ATAL
      Four Character ID        : ATAL
      Monument Inscription     : 
      IERS DOMES Number        : (A9)
@@ -53,22 +53,22 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : ASHTECH UZ-12        
+3.1  Receiver Type            : ASHTECH UZ-12       
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
-     Serial Number            : IR1200304026         
-     Firmware Version         :            
+     Serial Number            : IR1200304026        
+     Firmware Version         : CN00       
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2009-03-27T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2009-03-27T00:00Z    
+     Date Removed             : (CCYY-MM-DDThh:mmZ)  
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
-     Serial Number            : IR1200304026         
-     Firmware Version         :            
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2009-03-27T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -77,34 +77,35 @@
 4.   GNSS Antenna Information
 
 4.1  Antenna Type             : NOV533+CR       RADM
-     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Serial Number            : 32871               
      Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
      Marker->ARP Up Ecc. (m)  :   0.0000
      Marker->ARP North Ecc(m) :   0.0000
      Marker->ARP East Ecc(m)  :   0.0000
      Alignment from True N    : (deg; + is clockwise/east)
      Antenna Radome Type      : RADM
-     Radome Serial Number     : 
+     Radome Serial Number     :           
      Antenna Cable Type       : (vendor & type number)
-     Antenna Cable Length     : (m)
-     Date Installed           : 2009-03-27T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Antenna Cable Length     : (m)       
+     Date Installed           : 2009-03-27T00:00    
+     Date Removed             : (CCYY-MM-DDThh:mmZ)  
      Additional Information   : (multiple lines)
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
      Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
-     Marker->ARP Up Ecc. (m)  :   0.0000
-     Marker->ARP North Ecc(m) :   0.0000
-     Marker->ARP East Ecc(m)  :   0.0000
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
      Alignment from True N    : (deg; + is clockwise/east)
-     Antenna Radome Type      : RADM
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
-     Date Installed           : 2009-03-27T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
+
 
 5.   Surveyed Local Ties
 
@@ -327,6 +328,18 @@
      Additional Information   : (multiple lines)
      Antenna Graphics with Dimensions
 
-     (insert text graphic from file antenna.gra)
+
+NOV533+CR
+
+                       ---------
+                     /           \
+  +-----------------+-------------+-----------------+     <--          TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++--------------------------x--------------------------+   <--  0.0000  BCR=ARP
+                                                                       RXC=NRP
 
 

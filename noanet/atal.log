@@ -76,14 +76,14 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : NOV533+CR       RADM
+4.1  Antenna Type             : NOV533+CR       NOVC
      Serial Number            : 32871               
      Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
      Marker->ARP Up Ecc. (m)  :   0.0000
      Marker->ARP North Ecc(m) :   0.0000
      Marker->ARP East Ecc(m)  :   0.0000
      Alignment from True N    : (deg; + is clockwise/east)
-     Antenna Radome Type      : RADM
+     Antenna Radome Type      : NOVC
      Radome Serial Number     :           
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)       

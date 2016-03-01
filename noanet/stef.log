@@ -1,4 +1,4 @@
-     XXXX Site Information Form (site log)
+     STEF Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
@@ -58,7 +58,7 @@
      Serial Number            : 201118005           
      Firmware Version         : 4.1        
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2000-01-01T00:00Z    
+     Date Installed           : 2013-01-26T00:00Z    
      Date Removed             : (CCYY-MM-DDThh:mmZ)  
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -68,7 +68,7 @@
      Serial Number            : 201118005            
      Firmware Version         :            
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2013-01-26T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -87,7 +87,7 @@
      Radome Serial Number     :           
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)       
-     Date Installed           : 2000-01-01T00:00Z    
+     Date Installed           : 2013-01-26T00:00Z    
      Date Removed             : (CCYY-MM-DDThh:mmZ)  
      Additional Information   : (multiple lines)
 
@@ -102,7 +102,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
-     Date Installed           : 2013-01-26T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 

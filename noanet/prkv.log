@@ -1,4 +1,4 @@
-     XXXX Site Information Form (site log)
+     PRKV Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
@@ -78,7 +78,7 @@
      Serial Number            : 465459               
      Firmware Version         :            
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2007-06-30T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -112,7 +112,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
-     Date Installed           : 2007-06-30T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 

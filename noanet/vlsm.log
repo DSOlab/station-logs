@@ -1,4 +1,4 @@
-     XXXX Site Information Form (site log)
+     VLSM Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
@@ -98,7 +98,7 @@
      Serial Number            : 462019              
      Firmware Version         : 2.14/2.121 
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2000-01-01T00:00Z    
+     Date Installed           : 2006-02-15T00:00Z    
      Date Removed             : 2009-11-20T00:00Z    
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -108,7 +108,7 @@
      Serial Number            : 462019               
      Firmware Version         :            
      Elevation Cutoff Setting : (deg)
-     Date Installed           : 2006-02-15T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
@@ -142,7 +142,7 @@
      Radome Serial Number     :           
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)       
-     Date Installed           : 2000-01-01T00:00Z    
+     Date Installed           : 2006-02-15T00:00Z    
      Date Removed             : 2014-05-24T00:00Z    
      Additional Information   : (multiple lines)
 
@@ -157,7 +157,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
-     Date Installed           : 2006-02-15T00:00Z
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 

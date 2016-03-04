@@ -1,0 +1,23 @@
++ dion already has a radome: 12602M004
++ diop (central pillar) already has a radome: 12602M001
+
+codomes.snx has:
+-----------------------------------------------------------------------------
+DYNG  A 12602M006 Dionysos, GREECE
+7515  A 12602M002 Dionysos, GREECE
+7940  A 12602S001 Dionysos, GREECE
+DIOA  A 12602S011 Dionysos, GREECE
+DIOB  A 12602S012 Dionysos, GREECE
+DION  A 12602M004 Dionysos, GREECE
+
+http://itrf.ensg.ign.fr/doc_ITRF/iers_sta_list.txt has:
+-----------------------------------------------------------------------------
+12602M001 Dionysos          Central Pillar
+12602M002 Dionysos  7515    Mark SLR Standard WEGENER disk
+12602M003 Dionysos          DORIS mark
+12602M004 Dionysos  DION    EUVN GPS Marker (unknown description)
+12602M005 Dionysos          DORIS 2 domed brass mark on concrete wall
+12602M006 Dionysos  DYNG    Top and center of a domed bronze mark embedded on a concrete pad
+12602S001 Dionysos  7940           SLR IAR                   
+12602S011 Dionysos  DIOA    DORIS antenna ref. pt (Alcatel type)
+12602S012 Dionysos  DIOB    DORIS antenna Ref. Point (Starec type)

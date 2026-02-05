@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+License: CC By 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Copyright: Royal Observatory of Belgium (please acknowledge us and/or cite doi:10.24414/ROB-GNSS-M3G)
+-->
+<geo:GeodesyML xmlns:geo="urn:xml-gov-au:icsm:egeodesy:0.5" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="SNTR00GRC">
+  <geo:siteLog gml:id="sntr00grc_20160929">
+    <geo:formInformation>
+      <geo:FormInformation gml:id="form-info">
+        <geo:preparedBy>Xanthos Papanikolaou</geo:preparedBy>
+        <geo:datePrepared>2016-09-29</geo:datePrepared>
+        <geo:reportType>NEW</geo:reportType>
+      </geo:FormInformation>
+    </geo:formInformation>
+    <geo:siteIdentification>
+      <geo:SiteIdentification gml:id="site-identification">
+        <geo:siteName>Santorini</geo:siteName>
+        <geo:fourCharacterID>SNTR</geo:fourCharacterID>
+        <geo:monumentNumber>0</geo:monumentNumber>
+        <geo:receiverNumber>0</geo:receiverNumber>
+        <geo:monumentInscription></geo:monumentInscription>
+        <geo:iersDOMESNumber>12653M001</geo:iersDOMESNumber>
+        <geo:cdpNumber></geo:cdpNumber>
+        <geo:monumentDescription codeSpace="urn:ga-gov-au:monument-description-type"><![CDATA[]]></geo:monumentDescription>
+        <geo:monumentFoundation></geo:monumentFoundation>
+        <geo:markerDescription></geo:markerDescription>
+        <geo:dateInstalled>2004-06-26T10:27:00Z</geo:dateInstalled>
+        <geo:geologicCharacteristic codeSpace="urn:ga-gov-au:geologic-characteristic-type"><![CDATA[]]></geo:geologicCharacteristic>
+        <geo:bedrockType></geo:bedrockType>
+        <geo:bedrockCondition></geo:bedrockCondition>
+        <geo:fractureSpacing></geo:fractureSpacing>
+        <geo:faultZonesNearby codeSpace="urn:ga-gov-au:fault-zones-type"><![CDATA[]]></geo:faultZonesNearby>
+        <geo:distance-Activity></geo:distance-Activity>
+        <geo:notes><![CDATA[]]></geo:notes>
+      </geo:SiteIdentification>
+    </geo:siteIdentification>
+    <geo:siteLocation>
+      <geo:SiteLocation gml:id="site-location">
+        <geo:city>Akrotiri (lighthouse)</geo:city>
+        <geo:state>Cyclades (Santorini)</geo:state>
+        <geo:countryCodeISO codeSpace="urn:gnss-metadata.eu:country-code" codeList="https://gnss-metadata.eu/geodesyml/codelists/country-codes-codelist.xml#GeodesyML_CountryCode" codeListValue="GRC"><![CDATA[GRC]]></geo:countryCodeISO>
+        <geo:tectonicPlate codeSpace="urn:ga-gov-au:plate-type"><![CDATA[EURASIAN]]></geo:tectonicPlate>
+        <geo:approximatePositionITRF>
+          <geo:cartesianPosition>
+            <gml:Point gml:id="pos_cartesian">
+              <gml:pos srsName="EPSG:4978"><![CDATA[4647218.3 2202396.6 3760306.9]]></gml:pos>
+            </gml:Point>
+          </geo:cartesianPosition>
+          <geo:geodeticPosition>
+            <gml:Point gml:id="pos_ellipsoidal">
+              <gml:pos srsName="EPSG:4979"><![CDATA[36.357651261756 25.357077054252 137.88316820934]]></gml:pos>
+            </gml:Point>
+          </geo:geodeticPosition>
+        </geo:approximatePositionITRF>
+        <geo:notes></geo:notes>
+      </geo:SiteLocation>
+    </geo:siteLocation>
+    <geo:gnssReceiver>
+      <geo:GnssReceiver gml:id="gnss-receiver-5b053dd5902191.18671257">
+        <geo:notes></geo:notes>
+        <geo:manufacturerSerialNumber>0220296463</geo:manufacturerSerialNumber>
+        <geo:igsModelCode codeSpace="urn:gnss-metadata.eu:receiver-type" codeList="https://gnss-metadata.eu/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="TRIMBLE 5700"><![CDATA[TRIMBLE 5700]]></geo:igsModelCode>
+        <geo:satelliteSystem><![CDATA[GPS]]></geo:satelliteSystem>
+        <geo:firmwareVersion><![CDATA[NP 1.23 / SP 0.00]]></geo:firmwareVersion>
+        <geo:elevationCutoffSetting xsi:nil="false">5.0</geo:elevationCutoffSetting>
+        <geo:dateInstalled><![CDATA[2004-06-26T10:27:00Z]]></geo:dateInstalled>
+        <geo:dateRemoved><![CDATA[]]></geo:dateRemoved>
+        <geo:temperatureStabilization xsi:nil="true"/>
+      </geo:GnssReceiver>
+      <geo:dateInserted>2004-06-26T10:27:00Z</geo:dateInserted>
+      <geo:dateDeleted></geo:dateDeleted>
+    </geo:gnssReceiver>
+    <geo:gnssAntenna>
+      <geo:GnssAntenna gml:id="gnss-antenna-5b053dd590c403.44631965">
+        <geo:notes></geo:notes>
+        <geo:manufacturerSerialNumber>12399047</geo:manufacturerSerialNumber>
+        <geo:igsModelCode codeSpace="urn:gnss-metadata.eu:antenna-type" codeList="https://gnss-metadata.eu/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="TRM41249.00     NONE"><![CDATA[TRM41249.00     NONE]]></geo:igsModelCode>
+        <geo:antennaReferencePoint codeSpace="urn:ga-gov-au:antenna-reference-point-type"><![CDATA[BAM]]></geo:antennaReferencePoint>
+        <geo:marker-arpUpEcc.>0.0</geo:marker-arpUpEcc.>
+        <geo:marker-arpNorthEcc.>0.0</geo:marker-arpNorthEcc.>
+        <geo:marker-arpEastEcc.>0.0</geo:marker-arpEastEcc.>
+        <geo:alignmentFromTrueNorth xsi:nil="true"/>
+        <geo:antennaRadomeType codeSpace="urn:igs-org:gnss-radome-model-code"><![CDATA[NONE]]></geo:antennaRadomeType>
+        <geo:radomeSerialNumber><![CDATA[]]></geo:radomeSerialNumber>
+        <geo:antennaCableType><![CDATA[]]></geo:antennaCableType>
+        <geo:antennaCableLength xsi:nil="true"/>
+        <geo:dateInstalled><![CDATA[2004-06-26T10:27:00Z]]></geo:dateInstalled>
+        <geo:dateRemoved><![CDATA[2005-02-23T11:29:00Z]]></geo:dateRemoved>
+      </geo:GnssAntenna>
+      <geo:dateInserted>2004-06-26T10:27:00Z</geo:dateInserted>
+      <geo:dateDeleted></geo:dateDeleted>
+    </geo:gnssAntenna>
+    <geo:gnssAntenna>
+      <geo:GnssAntenna gml:id="gnss-antenna-5b053dd591dde8.29475787">
+        <geo:notes></geo:notes>
+        <geo:manufacturerSerialNumber>12378126</geo:manufacturerSerialNumber>
+        <geo:igsModelCode codeSpace="urn:gnss-metadata.eu:antenna-type" codeList="https://gnss-metadata.eu/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="TRM41249.00     NONE"><![CDATA[TRM41249.00     NONE]]></geo:igsModelCode>
+        <geo:antennaReferencePoint codeSpace="urn:ga-gov-au:antenna-reference-point-type"><![CDATA[BAM]]></geo:antennaReferencePoint>
+        <geo:marker-arpUpEcc.>0.0</geo:marker-arpUpEcc.>
+        <geo:marker-arpNorthEcc.>0.0</geo:marker-arpNorthEcc.>
+        <geo:marker-arpEastEcc.>0.0</geo:marker-arpEastEcc.>
+        <geo:alignmentFromTrueNorth xsi:nil="true"/>
+        <geo:antennaRadomeType codeSpace="urn:igs-org:gnss-radome-model-code"><![CDATA[NONE]]></geo:antennaRadomeType>
+        <geo:radomeSerialNumber><![CDATA[]]></geo:radomeSerialNumber>
+        <geo:antennaCableType><![CDATA[]]></geo:antennaCableType>
+        <geo:antennaCableLength xsi:nil="true"/>
+        <geo:dateInstalled><![CDATA[2005-02-23T11:29:00Z]]></geo:dateInstalled>
+        <geo:dateRemoved><![CDATA[]]></geo:dateRemoved>
+      </geo:GnssAntenna>
+      <geo:dateInserted>2005-02-23T11:29:00Z</geo:dateInserted>
+      <geo:dateDeleted></geo:dateDeleted>
+    </geo:gnssAntenna>
+    <geo:frequencyStandard>
+      <geo:FrequencyStandard gml:id="frequency-5b053dd592b114.47792293">
+        <geo:standardType codeSpace="urn:ga-gov-au:frequency-standard-type"><![CDATA[INTERNAL ]]></geo:standardType>
+        <gml:validTime>
+          <gml:TimePeriod gml:id="frequency-5b053dd592b114.47792293-time">
+            <gml:beginPosition><![CDATA[2004-06-26]]></gml:beginPosition>
+            <gml:endPosition><![CDATA[]]></gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <geo:notes><![CDATA[]]></geo:notes>
+      </geo:FrequencyStandard>
+      <geo:dateInserted>2004-06-26</geo:dateInserted>
+      <geo:dateDeleted></geo:dateDeleted>
+    </geo:frequencyStandard>
+    <geo:siteOwner gml:id="siteOwner">
+      <gml:identifier codeSpace="https://gnss-metadata.eu/"><![CDATA[subagency_5b0517c6b6ae0c3cc9796752_5f0dbc1dc2e0a_5f0dbc92d7f31]]></gml:identifier>
+      <gml:name><![CDATA[COMET]]></gml:name>
+      <gmd:MD_SecurityConstraints>
+        <gmd:classification gco:nilReason="Missing"/>
+      </gmd:MD_SecurityConstraints>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString><![CDATA[Barry Parsons]]></gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+          <gco:CharacterString><![CDATA[Centre for the Observation and Modelling of Earthquakes and Tectonics]]></gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString><![CDATA[+44 1865 272017]]></gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString><![CDATA[+44 1865 272072]]></gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString><![CDATA[Park Road, ]]></gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString><![CDATA[Oxford ]]></gco:CharacterString>
+                </gmd:city>
+                <gmd:postalCode>
+                  <gco:CharacterString><![CDATA[OX1 3PR]]></gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString><![CDATA[United Kingdom of Great Britain and Northern Ireland (the)]]></gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString><![CDATA[Barry.Parsons@earth.ox.ac.uk]]></gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role/>
+      </gmd:CI_ResponsibleParty>
+    </geo:siteOwner>
+    <geo:siteContact gml:id="siteContact">
+      <gml:identifier codeSpace="https://gnss-metadata.eu/"><![CDATA[subagency_5b0517c6b6ae0c3cc9796752_607dafdd894fa_607db03f3a65e]]></gml:identifier>
+      <gml:name><![CDATA[NTUA]]></gml:name>
+      <gmd:MD_SecurityConstraints>
+        <gmd:classification gco:nilReason="Missing"/>
+      </gmd:MD_SecurityConstraints>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString><![CDATA[Kostas Raptakis]]></gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+          <gco:CharacterString><![CDATA[National Technical University, Athens]]></gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString><![CDATA[+30 210 772 3932]]></gco:CharacterString>
+                </gmd:voice>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString><![CDATA[Iroon Polytechneiou Str., 9]]></gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString><![CDATA[Athens]]></gco:CharacterString>
+                </gmd:city>
+                <gmd:postalCode>
+                  <gco:CharacterString><![CDATA[157 80]]></gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString><![CDATA[Greece]]></gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString><![CDATA[corapt@central.ntua.gr]]></gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role/>
+      </gmd:CI_ResponsibleParty>
+    </geo:siteContact>
+    <geo:siteContact gml:id="siteContact-2">
+      <gml:identifier codeSpace="https://gnss-metadata.eu/"><![CDATA[subagency_5b0517c6b6ae0c3cc9796752_607dafdd894fa_607db061c3cba]]></gml:identifier>
+      <gml:name><![CDATA[NTUA]]></gml:name>
+      <gmd:MD_SecurityConstraints>
+        <gmd:classification gco:nilReason="Missing"/>
+      </gmd:MD_SecurityConstraints>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString><![CDATA[National Technical University, Athens]]></gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+          <gco:CharacterString><![CDATA[National Technical University, Athens]]></gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone/>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString><![CDATA[Iroon Polytechneiou Str., 9]]></gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString><![CDATA[Athens]]></gco:CharacterString>
+                </gmd:city>
+                <gmd:postalCode>
+                  <gco:CharacterString><![CDATA[157 80]]></gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString><![CDATA[Greece]]></gco:CharacterString>
+                </gmd:country>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role/>
+      </gmd:CI_ResponsibleParty>
+    </geo:siteContact>
+    <geo:siteMetadataCustodian gml:id="metadataCustodian">
+      <gml:identifier codeSpace="https://gnss-metadata.eu/"><![CDATA[https://ror.org/03cx6bg69]]></gml:identifier>
+      <gml:name><![CDATA[DSO]]></gml:name>
+      <gmd:MD_SecurityConstraints>
+        <gmd:classification gco:nilReason="Missing"/>
+      </gmd:MD_SecurityConstraints>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString><![CDATA[Xanthos Papanikolaou]]></gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+          <gco:CharacterString><![CDATA[Dionysos Satellite Observatory
+National Technical University of Athens]]></gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:positionName>
+          <gco:CharacterString><![CDATA[Faculty of Rural and Surveying Engineering]]></gco:CharacterString>
+        </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString><![CDATA[++30 210 7722592]]></gco:CharacterString>
+                </gmd:voice>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString><![CDATA[Iroon Polytechneiou Str., 9]]></gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString><![CDATA[Zographos]]></gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString><![CDATA[Faculty of Rural and Surveying Engineering]]></gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString><![CDATA[15780]]></gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString><![CDATA[Greece]]></gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString><![CDATA[xanthos@mail.ntua.gr]]></gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role/>
+      </gmd:CI_ResponsibleParty>
+    </geo:siteMetadataCustodian>
+    <geo:moreInformation>
+      <geo:MoreInformation gml:id="more-info">
+        <geo:dataCenter><![CDATA[NTUA]]></geo:dataCenter>
+        <geo:dataCenter><![CDATA[COMET]]></geo:dataCenter>
+        <geo:urlForMoreInformation><![CDATA[http://www.earth.ox.ac.uk/~cometgps/greece/sntr.ht]]></geo:urlForMoreInformation>
+        <geo:siteMap><![CDATA[]]></geo:siteMap>
+        <geo:siteDiagram><![CDATA[]]></geo:siteDiagram>
+        <geo:horizonMask><![CDATA[]]></geo:horizonMask>
+        <geo:monumentDescription><![CDATA[]]></geo:monumentDescription>
+        <geo:sitePictures><![CDATA[]]></geo:sitePictures>
+        <geo:notes><![CDATA[]]></geo:notes>
+        <geo:antennaGraphicsWithDimensions><![CDATA[(insert text graphic from file antenna.gra)
+
+TRM41249.00
+
+    / ----------------------+--------------------- \   <--  0.0714  L1
+   +                        +                       +  <--  0.0682  L2
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=TOP
+
+   <--                   0.3396                  -->]]></geo:antennaGraphicsWithDimensions>
+        <geo:insertTextGraphicFromAntenna><![CDATA[(insert text graphic from file antenna.gra)
+
+TRM41249.00
+
+    / ----------------------+--------------------- \   <--  0.0714  L1
+   +                        +                       +  <--  0.0682  L2
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=TOP
+
+   <--                   0.3396                  -->]]></geo:insertTextGraphicFromAntenna>
+        <geo:DOI codeSpace="urn:ga-gov-au:self.moreInformation-type"/>
+      </geo:MoreInformation>
+    </geo:moreInformation>
+  </geo:siteLog>
+</geo:GeodesyML>
